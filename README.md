@@ -60,7 +60,7 @@ It can be used for activities such as:
 | **Virtual Network** | NAT Network |
 | **Network Address** | 10.0.0.0/24 |
 | **Kali IP Address** | 10.0.0.5/24 |
-| **Default Gateway** | 10.0.0.1 |
+| **Default Gateway** | 10.0.0.2 |
 | **DNS Server** | 8.8.8.8 |
 
 ---
@@ -105,7 +105,7 @@ The Kali Linux network interface was configured and verified with a consistent I
 * **Configuration Details:**
   * IP Address: `10.0.0.5`
   * Subnet Mask: `255.255.255.0` (`/24`)
-  * Gateway: `10.0.0.1`
+  * Gateway: `10.0.0.2`
   * DNS: `8.8.8.8`
 
  <img width="930" height="471" alt="documentation" src="https://github.com/user-attachments/assets/435e8294-3e3b-4953-b391-27d6a69d7658" />
@@ -129,7 +129,7 @@ The snapshot represents the clean baseline of the laboratory. If a future exerci
 | 🗂️ Test | 💻 Command | 🎯 Expected Result |
 | :--- | :--- | :--- |
 | **Check IP address** | `ip a` | Correct Kali IP (`10.0.0.5`) displayed |
-| **Test gateway** | `ping -c 4 10.0.0.1` | Successful replies |
+| **Test gateway** | `ping -c 4 10.0.0.2` | Successful replies |
 | **Test Internet connectivity** | `ping -c 4 8.8.8.8` | Successful replies |
 | **Test DNS resolution** | `nslookup google.com` | Domain resolves successfully |
 | **Verify Nmap** | `nmap --version` | Nmap version displayed |
@@ -139,7 +139,7 @@ The snapshot represents the clean baseline of the laboratory. If a future exerci
 
 * **IP Address:** `10.0.0.5/24`
   
-* **Gateway:** `10.0.0.1`
+* **Gateway:** `10.0.0.2`
   
 * **DNS:** `8.8.8.8`
 
