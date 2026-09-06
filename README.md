@@ -143,12 +143,17 @@ The snapshot represents the clean baseline of the laboratory. If a future exerci
   
 * **DNS:** `8.8.8.8`
 
+<img width="671" height="594" alt="gateway, public internet, DNS resolution" src="https://github.com/user-attachments/assets/894022e5-e837-4312-b3b1-a02cc6d0fd2a" />
+
 ---
 
 ## 🪲 Problems Encountered & Solutions
 
 ### Problem 1. Internet Connectivity After Network Configuration
-**Issue:** Kali Linux lost internet connectivity after assigning a static IP configuration via NetworkManager.  
+**Issue:** Kali Linux lost internet connectivity after assigning a static IP configuration via NetworkManager.
+
+<img width="1365" height="420" alt="resetting network to NAT Network from NAT" src="https://github.com/user-attachments/assets/c58795c4-4697-41be-a272-92616d36ed46" />
+
 **Solution:** Adjusted IPv4 settings in NetworkManager, refreshed connection parameters, and restarted the connection using: `sudo nmcli connection reload`
 
 ### Problem 2. Hardware Virtualization (VT-x) Disabled
