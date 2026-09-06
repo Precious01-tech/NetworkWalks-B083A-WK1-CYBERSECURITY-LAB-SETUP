@@ -179,7 +179,7 @@ This laboratory environment is intended strictly for educational and authorized 
 
 ## 👤 Author
 
-* **Name:** Kehinde Precious Akinyemi 
+* **Name:** Kehinde Precious Akinyami 
 * **Role:** Cybersecurity Student
 
 ---
